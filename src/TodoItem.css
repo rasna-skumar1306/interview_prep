@@ -1,0 +1,34 @@
+.todoItem {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1rem auto;
+}
+
+.input {
+  width: 60%;
+  height: 2rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  transition: all ease-in 0.3s;
+  background-color: transparent;
+}
+
+.complete {
+  color: #42be00;
+}
+
+.input,
+.input:hover {
+  cursor: default;
+}
+
+.input:focus {
+  font-weight: normal;
+  height: 2.5rem;
+  border-bottom: 2px solid #fff;
+  transition: all ease-in 0.3s;
+  cursor: text;
+}
